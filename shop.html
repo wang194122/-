@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车结算</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/shop.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="top">
+				<div class="inner">
+					<div class="left">
+						<ul>
+							<li>喵，欢迎来天猫</li>
+						</ul>
+					</div> 
+					<!--left-->
+					<div class="right">
+						<ul>
+							<li class="icon1"><a href="">我的淘宝<i class="img wde"></i></a></li>
+							<li class="icon"><i class="img love"></i><a href="">我关注的品牌</a></li>
+							<li class="icon"><i class="img shopper"></i><a href="">购物车<span id="">0</span>件</a></li>
+							<li class="icon1"><a href=""><i class="img wde1"></i>收藏夹</a></li>
+							<li><i class="img nav16"></i><a href="">手机版</a></li>
+							<li><a href="">淘宝网</a></li>
+							<li class="icon1"><a href="">商家支持<i class="img wde2"></i></a></li>
+							<li class="icon1"><i class="img nav11"></i><a href="">网站导航<i class="img wde3"></i></a></li>
+						</ul>
+					</div>  
+					<!--right-->
+				</div>
+			</div>
+			<div class="header">
+				<div class="inner">
+					<div class="left">
+						<img src="img/tianmao.png" alt="" />
+						<span>购物车</span>
+					</div>
+					<div class="search">
+						<input type="text" placeholder="请输入关键字"/>
+						<input type="button" value="搜索"/>
+					</div>
+				</div>
+			</div>
+			<!--header end-->
+			<div class="shop">
+				<div class="inner">
+					<table id="cartTable">
+						<thead>
+							<tr>
+								<th><input type="checkbox" class="check-all check"/>&nbsp;全选</th>
+								<th>商品</th>
+								<th>单价</th>
+								<th>数量</th>
+								<th>金额</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="checkbox"><input type="checkbox" class="check"/></td>
+								<td class="goods"><img src="img/1.jpg" alt="" /><span>连衣裙</span></td>
+								<td class="price">110.00</td>
+								<td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+								<td class="subtotal">110.00</td>
+								<td class="operation"><span class="delete">删除</span></td>
+							</tr>
+							<tr>
+								<td class="checkbox"><input type="checkbox" class="check"/></td>
+								<td class="goods"><img src="img/2.jpg" alt="" /><span>连衣裙</span></td>
+								<td class="price">120.00</td>
+								<td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+								<td class="subtotal">120.00</td>
+								<td class="operation"><span class="delete">删除</span></td>
+							</tr>
+							<tr>
+								<td class="checkbox"><input type="checkbox" class="check"/></td>
+								<td class="goods"><img src="img/3.jpg" alt="" /><span>连衣裙</span></td>
+								<td class="price">150.00</td>
+								<td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+								<td class="subtotal">150.00</td>
+								<td class="operation"><span class="delete">删除</span></td>
+							</tr>
+							<tr>
+								<td class="checkbox"><input type="checkbox" class="check"/></td>
+								<td class="goods"><img src="img/4.jpg" alt="" /><span>连衣裙</span></td>
+								<td class="price">180.00</td>
+								<td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+								<td class="subtotal">180.00</td>
+								<td class="operation"><span class="delete">删除</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="foot" id="foot">
+						<label class="fl select-all">&nbsp;&nbsp;<input type="checkbox" class="check-all check"/>&nbsp;全选</label>
+						<a class="fl delete" id="deleteAll" href="javascript:;">删除</a>
+						<div class="fr closing">结 算</div>
+						<div class="fr total">合计：￥<span id="priceTotal">0.00</span></div>
+						<div class="fr selected" id="selected">已选商品<span id="selectedTotal">0</span>件<span class="arrow up">︽</span><span class="arrow down">︾</span></div>
+					</div>
+				</div>
+			</div>
+			
+			<footer class="footer1">
+				<div class="inner">
+					<div class="bottom">
+						<p class="bottom_1">
+							<a href="">关于天猫</a>
+							<a href="">帮助中心</a>
+							<a href="">开放平台</a>
+							<a href="">关于天猫</a>
+							<a href="">关于天猫</a>
+							<a href="">关于天猫</a>
+							<a href="">关于天猫</a>
+							<a href="">关于天猫</a>
+							<a href="">关于天猫</a>
+							<a href="">关于天猫</a>
+						</p>
+						
+						<p class="bottom_1">
+							<a href="">阿里巴巴集团</a><a href="">|</a>
+							<a href="">淘宝网</a><a href="">|</a>
+							<a href="">天猫</a><a href="">|</a>
+							<a href="">聚划算</a><a href="">|</a>
+							<a href="">全球速卖通</a><a href="">|</a>
+							<a href="">飞猪</a><a href="">|</a>
+							<a href="">阿里云计算</a><a href="">|</a>
+							<a href="">YunOs</a><a href="">|</a>
+							<a href="">阿里通信</a><a href="">|</a>
+							<a href="">万网</a><a href="">|</a>
+							<a href="">高德</a><a href="">|</a>
+							<a href="">钉钉</a><a href="">|</a>
+							<a href="">支付宝</a>
+						</p>
+						
+						<p class="bottom_2">
+							<span>增值电信业务经营许可证：浙B2-20110446</span>
+							<span>网络文化经营许可证：浙网文[2015]0295-065号</span>
+							<span>12318举报</span>
+						</p>
+						
+						<p class="bottom_2">
+							<span>互联网药品信息服务资质证书编号：浙-（经营性）-2017-0005</span>
+							<span><img src="img/foot0.png">浙公网安备案 33010002000120号</span>
+						</p>
+						<p class="bottom_3">
+							<span>©2003-2017 TMALLCOM 版权所有</span>
+						</p>
+					</div>			
+				</div>		
+			</footer>
+		</div>
+		
+
+	<script src="js/shop.js"></script>
+	</body>
+</html>

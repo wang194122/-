@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册页面</title>
+		<link type="text/css" href="css/reset.css" rel="stylesheet" />
+		<link type="text/css" href="css/register.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="title">
+				<div class="inner">
+					<ul>
+						<li class="active">
+							<span class="c1 active">
+								<i>1</i>
+							</span>
+							<a href="">设置用户名</a>
+						</li>
+						<li>
+							<span>
+								<i>2</i>
+							</span>
+							<a href="">填写账户信息</a>
+						</li>
+						<li>
+							<span>
+								<i>3</i>
+							</span>
+							<a href="">注册成功</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--title end-->
+			<div class="content">
+				<div class="inner">
+					<div class="active">
+						<div class="username">
+							<div class="mobile">
+								<label for="user">手机号</label>
+								<select name="">
+									<option value="">中国大陆</option>
+									<option value="">中国台湾</option>
+									<option value="">中国香港</option>
+								</select>
+								<input type="text" name="user" id="user" placeholder="请输入你的手机号码" />
+							</div>
+							<p id="text1"></p>
+							<div class="validate">
+								<label for="">&nbsp;&nbsp;&nbsp; 验证</label>
+								<div>
+									<p class="p1">>></p>
+									<p class="odiv">请按住滑块,拖动到最右边
+										<span></span>
+									</p>
+								</div>
+							</div>
+							<p id="text2"></p>
+							<div class="button">
+								<input class="btn1" name="" id="" value="下一步" />
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="news">
+							<form active="" method="">
+								<div>
+									<label>用户名</label>
+									<input type="text" placeholder="6-18位数字字母下划线组成或使用邮箱号">
+								</div>
+								<div>
+									<label>密码</label>
+									<input type="password" placeholder="6-12个字符">
+								</div>
+								<div>
+									<label>重复密码</label>
+									<input type="password" placeholder="再输一次密码">
+								</div>
+								<div>
+									<label>验证码</label>
+									<input type="text" placeholder="请输入图像验证码">
+								</div>
+								<div>
+									<label>电子邮箱</label>
+									<input type="text" placeholder="电子邮箱格式:xxx@xxx.xx">
+								</div>
+								<input class="btn1" type="button" name="" id="" value="下一步" />
+							</form>
+						</div>
+					</div>
+					<div>
+						<div class="success">
+							<p id="btn2">注册成功</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--content end-->
+			<footer class="footer1">
+					<div class="inner">
+						<div class="bottom">
+							<p class="bottom_1">
+								<a href="">关于天猫</a>
+								<a href="">帮助中心</a>
+								<a href="">开放平台</a>
+								<a href="">关于天猫</a>
+								<a href="">关于天猫</a>
+								<a href="">关于天猫</a>
+								<a href="">关于天猫</a>
+								<a href="">关于天猫</a>
+								<a href="">关于天猫</a>
+								<a href="">关于天猫</a>
+							</p>
+							
+							<p class="bottom_1">
+								<a href="">阿里巴巴集团</a><a href="">|</a>
+								<a href="">淘宝网</a><a href="">|</a>
+								<a href="">天猫</a><a href="">|</a>
+								<a href="">聚划算</a><a href="">|</a>
+								<a href="">全球速卖通</a><a href="">|</a>
+								<a href="">阿里巴巴国际交易市场</a><a href="">|</a>
+								<a href="">1688</a><a href="">|</a>
+								<a href="">阿里妈妈</a><a href="">|</a>
+								<a href="">飞猪</a><a href="">|</a>
+								<a href="">阿里云计算</a><a href="">|</a>
+								<a href="">YunOs</a><a href="">|</a>
+								<a href="">阿里通信</a><a href="">|</a>
+								<a href="">万网</a><a href="">|</a>
+								<a href="">高德</a><a href="">|</a>
+								<a href="">UC</a><a href="">|</a>
+								<a href="">友盟</a><a href="">|</a>
+								<a href="">虾米</a><a href="">|</a>
+								<a href="">阿里星球</a><a href="">|</a>
+								<a href="">来往</a><a href="">|</a>
+								<a href="">钉钉</a><a href="">|</a>
+								<a href="">支付宝</a>
+							</p>
+							
+							<p class="bottom_2">
+								<span>增值电信业务经营许可证：浙B2-20110446</span>
+								<span>网络文化经营许可证：浙网文[2015]0295-065号</span>
+								<span>12318举报</span>
+							</p>
+							
+							<p class="bottom_2">
+								<span>互联网药品信息服务资质证书编号：浙-（经营性）-2017-0005</span>
+								<span><img src="img/foot0.png">浙公网安备案 33010002000120号</span>
+							</p>
+							<p class="bottom_3">
+								<span>©2003-2017 TMALLCOM 版权所有</span>
+							</p>
+							
+							<p class="bottom_4">
+								<img src="img/foot1.jpg">
+								<img src="img/foot2.jpg">
+							</p>	
+						</div>			
+					</div>		
+				</footer>
+		</div>
+		<script type="text/javascript">
+		
+		var oDiv= document.querySelector('.validate div');
+		var oSpan = document.querySelector('.odiv');
+		var newDiv = document.querySelector('.odiv span');
+		
+		
+		/*---块拖动---*/
+		//console.log(oDiv)
+		var oP = document.querySelector('.validate .p1');
+		var oSpanWidth = oSpan.offsetWidth;
+		//console.log(oDiv)
+		var oDivLeft = oDiv.offsetLeft;
+		//console.log(oDivLeft)
+		
+		oP.onmousedown = function(e){
+			e = e || window.event;
+			document.onmousemove = function(e){
+				e = e || window.event;
+				e.preventDefault();
+				disX = e.clientX - (oDivLeft+oSpan.offsetLeft);
+				//console.log(disX)
+				var l = disX - 20;
+				
+				var currentTop = parseFloat(getStyle(oDiv, 'top'));
+				
+				if(l<0){l=63;}
+				//console.log(l);
+       			if(l>=(oSpanWidth-20)){l = (oSpanWidth+21)};
+				
+				oP.style.left=l+"px";
+				oP.style.top=currentTop +"px";
+				
+				newDiv.style.width=(l-63)+"px";
+				newDiv.style.background="rgba(0,255,0,.6)";
+				if(l === (oSpanWidth+21)){
+					text2.innerHTML="验证成功";
+					text2.style.color="#55A532"
+				}else{
+					text2.innerHTML="";
+				}
+				
+			}
+			document.onmouseup = function(){
+				document.onmousemove = null;
+				document.onmouseup = null;
+			}
+		}
+		function getStyle(obj, attr){
+			return obj.currentStyle ? obj.currentStyle[attr] : getComputedStyle(obj)[attr]
+		}
+			
+			
+		
+			var btns = document.querySelectorAll('.title li'),
+				btn1 = document.getElementsByClassName("btn1"),
+				btn2 = document.getElementById("btn2"),
+				text1 = document.getElementById("text1"),
+				text2 = document.getElementById("text2"),
+				ipt1 = document.getElementById("user"),
+				spans = document.querySelectorAll(".title li span"),
+				contents = document.querySelectorAll('.content .inner>div');
+				
+			/*---手机号验证---*/
+			var reg=/^1\d{10}$/;
+			ipt1.onchange=function(){
+				var val1=this.value;
+				if(reg.test(val1)){
+					text1.innerHTML="格式正确";
+					text1.style.color="#55A532"
+				}else{
+					text1.innerHTML="请输入正确的手机号";
+					text1.style.color="#FF0036"
+				}
+			}
+		
+			
+			
+			/*---点击事件---*/
+			for(var i=0;i<btn1.length;i++){
+				btn1[i].index = i;
+				btn1[i].onclick = function(){
+					if(ipt1.value === ""){
+						text1.innerHTML="不能为空哦";
+					}else if(text2.innerHTML==="验证成功"){
+						if(reg.test(ipt1.value)){
+							var _index = this.index;
+							num = _index+1;
+							for(var j=0;j<btn1.length;j++){
+								contents[j].className = "";
+								btns[j].className = "";
+								spans[j].className = "";
+							}
+							spans[num].className = "active";
+							contents[num].className = "active";
+							btns[num].className = "active";	
+							setCookie("user", user.value, 7);
+						}
+					}
+					
+				}
+			}
+			btn2.onclick=function(){
+				location.href="index.html"
+			}
+			
+			/*---设置cookie---*/
+			function setCookie(key, value, time){
+				var date = new Date()
+				date.setDate(date.getDate() + time) // 当前时间 + 30天
+				document.cookie = key + "=" + encodeURIComponent(value) + ";expires=" + date
+			}
+			
+			
+			
+			
+			
+			
+			
+			/*for(var i=0;i<btns.length;i++){
+				btns[i].index = i;
+				btns[i].onclick = function(){
+					var _index = this.index;	
+					for(var j=0;j<btns.length;j++){
+						contents[j].className = "";
+						btns[j].className = "";
+						spans[j].className = "";
+					}
+					spans[_index].className = "active";
+					contents[_index].className = "active";
+					this.className = "active";
+				}
+			}*/
+			
+		
+		</script>
+
+		
+	</body>
+</html>
